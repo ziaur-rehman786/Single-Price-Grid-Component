@@ -30,6 +30,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      position: relative;
+    }
+
+    .project-by {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 14px;
+      font-weight: 400;
+      color: hsl(218, 22%, 67%);
+      z-index: 1000;
     }
 
     .container {
@@ -237,10 +248,17 @@
         margin-bottom: 3px;
         font-size: 14px;
       }
+
+      .project-by {
+        top: 15px;
+        left: 15px;
+        font-size: 12px;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="project-by">Project by Zia Ur Rehman</div>
   <main class="container">
     <section class="community-section">
       <h1>Join our community</h1>
